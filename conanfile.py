@@ -9,6 +9,7 @@ from conan.tools.scm import Git
 class mapviewerRecipe(ConanFile):
     name = "mapviewer"
     package_type = "application"
+    # fmt: skip
 
     requires = "graphics/[>=1.0 <2]"
 
